@@ -1,0 +1,17 @@
+{
+  "name": "ts-swagger-schema",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generate-and-publish.js",
+  "scripts": {
+    "generate-and-publish": "node generate-and-publish.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.2",
+    "node-fetch": "^3.3.0",
+    "ts-json-schema-generator": "^1.2.0"
+  }
+}
